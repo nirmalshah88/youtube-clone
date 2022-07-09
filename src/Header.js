@@ -20,13 +20,13 @@ function Header() {
         />
       </div>
       <div className="header__input">
-        <input type="text" />
+        <input type="text" placeholder="Search" />
         <SearchSharpIcon className="header__inputButton" />
       </div>
       <div className="header__icons">
-        <VideoCallSharpIcon />
-        <AppsSharpIcon />
-        <NotificationsSharpIcon />
+        <VideoCallSharpIcon className="header__icon" />
+        <AppsSharpIcon className="header__icon" />
+        <NotificationsSharpIcon className="header__icon" />
         <Avatar alt="avatar" src="ns-logo-black-bg.png" />
       </div>
     </div>

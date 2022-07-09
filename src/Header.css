@@ -3,6 +3,10 @@
   align-items: center;
   justify-content: space-between;
   padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(255, 255, 255, 0.95);
 }
 
 .header__logo {
@@ -25,12 +29,16 @@
   color: gray;
 }
 
+.header__input > input {
+  flex: 1;
+  border: none;
+}
+
 .header__icons {
   display: flex;
   align-items: center;
 }
 
-.header__input > input {
-  flex: 1;
-  border: none;
+.header__icon {
+  margin-right: 10px;
 }
